@@ -12,7 +12,7 @@ int main()
 	start = clock();
 
 	//Where the fizzbuzz happens
-	for (int x = 1; x < 50000; x++)
+	for (int x = 1; x <= 50000; x++)
 	{
 		if (x % 15 == 0) 
 			cout << "fizzbuzz - " << x << endl; 
